@@ -1,0 +1,13 @@
+# don't commit gem5 build outputs / huge binaries
+build/
+**/build/
+
+# ignore run subfolders that can explode in size
+**/fs/
+
+# common junk
+*.o
+*.out
+*.pyc
+__pycache__/
+.DS_Store
